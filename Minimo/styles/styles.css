@@ -1,0 +1,257 @@
+@import "fonts.css";
+
+body {
+	color: #626262;
+	font-family: "PlayfairDisplay-Regular";
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 24px;
+
+	background-color: lightgrey;
+}
+
+.main-container {
+	max-width: 1200px;
+
+	background-color: #fff;
+}
+
+.header {
+	width: 1061px;
+	padding: 68px 0;
+}
+
+.logo {
+	color: #000000;
+	font-family: Inconsolata;
+	font-size: 30px;
+	text-transform: uppercase;
+	letter-spacing: 6px;
+}
+
+.nav-item {
+	color: #626262;
+	text-transform: uppercase;
+}
+
+.promo__img {
+	width: 1061px;
+	height: 509px;
+	margin-bottom: 99px;
+}
+
+.promo__content {
+	width: 925px;
+}
+
+.promo__content-header {
+	margin-top: 25px;
+	margin-bottom: 30px;
+
+	color: #626262;
+	font-family: "Playfair Display";
+	font-size: 30px;
+	font-weight: 400;
+}
+
+.promo__content-item {
+	color: #b4ad9e;
+	font-family: Ubuntu;
+	font-size: 14px;
+	font-weight: 300;
+	text-transform: uppercase;
+
+	cursor: pointer;
+}
+
+.promo__content-text {
+	margin-bottom: 50px;
+}
+
+.photodiary {
+	width: 925px;
+	margin: 0 auto;
+	margin-top: 135px;
+}
+
+.photodiary__content-images {
+	margin-bottom: 32px;
+}
+
+.photodiary__content-images:nth-child(3) {
+	margin-top: 132px;
+}
+
+.photodiary__content-text {
+	height: 65px;
+	overflow: hidden;
+	text-overflow: clip;
+}
+
+.photodiary__content-item {
+	color: #b4ad9e;
+	font-family: Ubuntu;
+	font-size: 14px;
+	font-weight: 300;
+	text-transform: uppercase;
+}
+
+.photodiary__content-header {
+	margin-top: 28px;
+	margin-bottom: 34px;
+
+	color: #626262;
+	font-family: "Playfair Display";
+	font-size: 30px;
+	font-weight: 400;
+}
+
+.sign-up {
+	margin-top: 122px;
+	margin-bottom: 103px;
+
+	background-color: #f0f0f0;
+}
+
+.sign-up__header {
+	margin-top: 73px;
+	margin-bottom: 83px;
+
+	color: #333333;
+	font-family: "Playfair Display";
+	font-size: 30px;
+	font-weight: 400;
+	letter-spacing: 0.75px;
+}
+
+.sign-up__form {
+	position: relative;
+}
+
+.sign-up__form-mail {
+	width: 350px;
+	margin-bottom: 74px;
+
+	border: none;
+	border-bottom: 3px solid #787878;
+	background-color: #f0f0f0;
+}
+
+::-webkit-input-placeholder {
+	color: #626262;
+	font-family: "Playfair Display";
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 24px;
+}
+::-moz-placeholder          {
+	color: #626262;
+	font-family: "Playfair Display";
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 24px;
+}
+:-moz-placeholder           {
+	color: #626262;
+	font-family: "Playfair Display";
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 24px;
+}
+:-ms-input-placeholder      {
+	color: #626262;
+	font-family: "Playfair Display";
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 24px;
+}
+
+.sign-up__form-button {
+	position: absolute;
+	top: 6px;
+    right: 1px;
+    width: 32px;
+    height: 20px;
+
+    border-color: transparent;
+    background-color: transparent;
+    background-image: url("../images/fly.png");
+    background-repeat: no-repeat;
+
+    cursor: pointer;
+}
+
+.photodiary__button {
+	width: 164px;
+	height: 60px;
+	margin: 40%;
+	margin-top: 165px;
+
+	color: #626262;
+	font-family: "Playfair Display";
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 24px;
+
+	border:1px solid #626262;
+	background-color: #fff;
+
+	cursor: pointer;
+}
+
+.footer {
+	padding-top: 40px;
+	padding-bottom: 45px;
+
+	background-color: #f0f0f0;
+}
+
+.footer__container {
+	width: 1061px;
+	margin: 0 auto;
+}
+
+.nav__link {
+	padding-right: 17px;
+
+	color: #000000;
+	font-family: "Playfair Display";
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 24px;
+}
+
+.footer__follow-item {
+	padding-right: 20px;
+
+	color: #000000;
+	font-family: "Playfair Display";
+}
+
+.nav__icon {
+	display: inline-block;
+	width: 18px;
+	height: 15px;
+}
+
+.nav__item {
+	padding-right: 15px;
+}
+
+.nav__item:nth-child(1) a{
+	background-image: url("../images/facebook.png");
+	background-repeat: no-repeat;
+	background-position: 5px 1px;
+}
+
+.nav__item:nth-child(2) a{
+	background-image: url("../images/twitter.png");
+	background-repeat: no-repeat;
+	background-position: 0px 1px;
+}
+
+.nav__item:nth-child(3) a{
+	background-image: url("../images/instagram.png");
+	background-repeat: no-repeat;
+	background-position: 3px 0px;
+}
