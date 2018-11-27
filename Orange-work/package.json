@@ -1,0 +1,20 @@
+{
+  "name": "mogo",
+  "version": "1.0.0",
+  "description": "Test",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://gitlab.php-academy.org/yuriy.markovich/MoGo.git"
+  },
+  "author": "Markovich Yuriy",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.24.7",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^4.0.1"
+  }
+}
